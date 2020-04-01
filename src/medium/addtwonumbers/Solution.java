@@ -51,12 +51,14 @@ public static ListNode addTwoNumbers(ListNode l1, ListNode l2)
 
 public static void printListNode(ListNode inputlist)
 {
-
+String result="";
 	while (inputlist!=null) 
 	{
-		System.out.print(inputlist.val);
+		result = result +inputlist.val;
 		inputlist = inputlist.next;
 	}
+	
+	System.out.println(new StringBuilder(result).reverse().toString());
 }
 
 }
