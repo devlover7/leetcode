@@ -15,10 +15,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 
 Solution By Abhinav Gour <br />
-123  <br />
-Input 1 -> 2 -> 3  <br />
+<br />
+123 Input 1 -> 2 -> 3  <br />
 ListNode (1) -> ListNode (2) -> ListNode (3)  <br /> 
-
 
 <br />
 
